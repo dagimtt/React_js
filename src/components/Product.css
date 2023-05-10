@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cover {
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: absolute;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+
+}
+.alt {
+    width: 80%;
+    height:3em;
+    display: flex;
+    justify-content: space-around;
+
+}
+.alt div{
+    text-align: center;
+}
+.fb,.gog{
+    width: 70px;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: white;
+
+}
+.fb:hover,.gog:hover{
+    background-color: white;
+    color: black;
+}
+.empinput{
+    width: 70%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+    font-size: large;
+    border-radius: 4px;
+    
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.icon3{
+    font-size: 50px;
+}

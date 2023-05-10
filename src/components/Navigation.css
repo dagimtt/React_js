@@ -1,0 +1,27 @@
+Navbar {
+  background:darkblue;
+}
+nav{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background:black;
+    color: white;
+    padding-top: 20px;
+    display: inline-block;
+    
+   
+}
+.Nlink{
+    color: white;
+    padding: 5px;
+}
+.Nlink:hover{
+    color: black;
+    background-color: white;
+}
+.icon2{
+ float: right;
+ font-size: 50px;
+ margin-right: 10px;
+}

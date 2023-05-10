@@ -1,0 +1,23 @@
+h2{
+
+   margin-top: 150px;
+   font-size: 40px;
+   color: cadetblue;
+   border-radius: 1em;
+   margin-left: 600px;
+   
+}
+.gc{
+    font-size: 50px;
+    margin-left: 800px;
+
+}
+.gcc{
+    font-size: 50px;
+    margin-left: 850px;
+}
+body{
+    background: url("gold1.jpg") no-repeat;
+    background-size: 50%;
+  
+}
